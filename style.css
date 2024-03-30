@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 00;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    color: white;
+    padding-left: 7%;
+    padding-top: 5%;
+    overflow: hidden;
+}
+
+.container h1 {
+    font-size: 65px;
+    display: flex;
+    align-items: center;
+}
+
+.container h1 img {
+    height: 55px;
+}
+
+
+.container button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    background: linear-gradient(#9418fd, #571094);
+    font-size: 16px;
+    border-radius: 40px;
+    color: white;
+    outline: none;
+    border: none;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.container button img {
+    height: 30px;
+}
+
+.container ul {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    width: 800px;
+    overflow-y: auto;
+    max-height: 450px;
+    border-radius: 10px;
+
+    scrollbar-width: thin; 
+    scrollbar-color: #9418fd #571094; 
+}
+
+.container ul li {
+    list-style: none;
+}
+
+.input {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    background: white;
+    color: black;
+    padding: 10px 35px 5px 8px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.input img {
+    position: absolute;
+    right: 8px;
+    bottom: 5px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
+.container ul::-webkit-scrollbar {
+    width: 10px;
+}
+
+.container ul {
+    scrollbar-base-color: #ffffff; 
+    scrollbar-arrow-color: #ffffff;
+}
